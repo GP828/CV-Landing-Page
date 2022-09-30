@@ -1,0 +1,111 @@
+/* HTML Elements */
+body {
+    background-color: black;
+}
+h1, h4 {
+    font-family: 'Prata';
+    font-weight: 400;
+    color: white;
+}
+p, a {
+    font-family: 'Inter';
+    font-weight: 400;
+    color: gray;
+}
+
+/* Sections */
+#title {
+    background-color: black;
+    padding: 5% 7%;
+}
+
+/* Navigation Bar */
+.brandname {
+    font-family: 'Prata';
+    font-weight: 400;
+}
+.nav-item .btn-warning {
+    font-family: 'Prata';   
+}
+.get-in-touch {
+    font-family: 'Prata';
+    color: #000000;
+    font-size: 15px;
+    background: yellow;
+    padding: 15px 30px 15px 30px;
+    text-decoration: none;
+    position: relative;
+    bottom: 10px;
+  }
+.page-aspects {
+    margin-left: 20%;
+    margin-right: 10%;
+    width: 400px;
+}
+
+  
+.get-in-touch:hover {
+    background: #effc3c;
+    text-decoration: none;
+  }
+
+/* Heading */
+.title-writeup {
+    padding: 5% 0%;
+    width: 50%;
+    height: 50%;
+    color: white;
+}
+.title-heading {
+    font-size: 3rem;
+}
+.title-desc {
+    width: 80%;
+}
+.logos {
+    width: 100%;
+}
+.websites {
+    margin-top: 5%;
+}
+
+/* About */
+#about {
+    background-color: #343339;
+    padding: 5% 7%;
+}
+
+/* Contact */
+#contact {
+    background-color: #000000;
+    padding: 5% 7%;
+}
+
+/* Footer */
+#footer {
+    background-color: #343339;
+    padding: 2% 7%;
+}
+.socials {
+    display: inline-block;
+    position: relative;
+    
+}
+
+
+/* Responsiveness */
+@media (max-width: 960px) {
+ .title-writeup {
+    width: 100%;
+ }
+ .spense {
+    padding-bottom: 2%;
+ }
+ .yelpcamp {
+    padding-top: 2%;
+ }
+ .second-column {
+    padding-left: 1%;
+ }
+}   
+
